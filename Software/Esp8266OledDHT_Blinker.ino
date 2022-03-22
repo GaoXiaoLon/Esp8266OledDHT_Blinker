@@ -123,8 +123,7 @@ void oled(){
     display.print(h);
     display.print(" %");
     display.display();
-  
-  }
+}
 void led(){
   while(humi_read > 90 && temp_read > 15){
         pinMode(D6,HIGH); 
